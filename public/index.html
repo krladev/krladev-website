@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="assets/kd-avatar-face.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Karla Navas Dev - Website 2021" />
+    <meta name="keywords" content="Developer, Front End, Javascript, HTML5, CSS3, ReactJS, PHP, Laravel, Website, Software Engineer, Programmer, Designer, Web Master, UI, UX, Photoshop, Illustrator, Canva, Social Media" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Merriweather:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Karla Navas | Developer | Designer | Marketer</title>
+
+    <script>
+        function isElementInViewport (el) {
+
+            var rect = el.getBoundingClientRect();
+
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /* or $(window).height() */
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth) /* or $(window).width() */
+            );
+        }
+
+        window.addEventListener('scroll', () => {
+            let elementList = document.querySelectorAll(".kd-fade-in-effect");
+            if(elementList && elementList.length){
+                for(let i=0; i<elementList.length; i++){
+                    if(isElementInViewport (elementList[i])){
+                        elementList[i].classList.remove("kd-fade-in-effect");
+                        elementList[i].classList.add("kd-fade-in");
+                    }
+                }
+            }
+        }, false);
+      </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
