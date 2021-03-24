@@ -47,7 +47,7 @@ export const KrlaDev = () => {
 
                 <div className="row mt-4">
                     <div className="col-sm-12 kd-card">
-                        <p><img className="kd-fade-in-effect" src="assets/front-end.jpg" alt="Front End Development" /></p>
+                        <p><img className="kd-fade-in-effect" src="assets/kd-front-end.png" alt="Front End Development" /></p>
                         <h3>Modern Front End Development</h3>
                         <p className="kd-fineprint">Javascript (ES6) | ReactJS | Jest | SASS</p>
                     </div>

@@ -46,13 +46,14 @@ h3{
 }
 
 .kd-banner{
-    background-image: url("../assets/banner-xl.jpg");
-    background-size: auto auto;
+    background-image: url("../assets/kd-banner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     box-shadow: 0px 8px 6px -6px #333333;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 20rem;
+    min-height: 25rem;
     width: 100%;
     /* -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black; */
@@ -69,8 +70,9 @@ h3{
 
 @media only screen and (max-width: 375px) {
     .kd-banner {
-        background-image: url("../assets/banner.jpeg");
         background-size: auto 100%;
+        background-position: center center;
+        min-height: 20rem;
     }
 
     .kd-banner h1{
