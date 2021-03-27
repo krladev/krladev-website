@@ -53,7 +53,7 @@ export const KrlaDev = () => {
                     </div>
 
                     <div className="col-sm-12 kd-card">
-                        <p><img className="kd-fade-in-effect" src="assets/api-dev.jpg" alt="API Development" /></p>
+                        <p><img className="kd-fade-in-effect" src="assets/api-dev.png" alt="API Development" /></p>
                         <h3>API Development</h3>
                         <p className="kd-fineprint">PHP / Laravel</p>
                     </div>
