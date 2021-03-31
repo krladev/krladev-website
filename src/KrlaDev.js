@@ -59,7 +59,7 @@ export const KrlaDev = () => {
                     </div>
 
                     <div className="col-sm-12 kd-card">
-                        <p><img className="kd-fade-in-effect" src="assets/ui-design.jpg" alt="UI Design" /></p>
+                        <p><img className="kd-fade-in-effect" src="assets/ui-design.png" alt="UI Design" /></p>
                         <h3>UI Design</h3>
                         <p className="kd-fineprint">Photoshop | Illustrator | Canva | Social Media</p>
                     </div>
