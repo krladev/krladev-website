@@ -29,11 +29,8 @@ export const KrlaDev = () => {
 
                 <div className="row mt-4">
                     <div className="col-sm-12">
-                        <p>My name is <strong>Karla Navas</strong>.</p>
-                        <p>I hold a <strong>Bachelor's Degree</strong> in Business Administration, a <strong>Masters</strong> in Leadership, and more recently, a <strong>Diploma in Web Development</strong>.</p>
-                        <p>A few years ago I switched careers to become a Web Developer, leaving behind 8 years in Marketing.</p>
-                        <p>During my time as a marketer, I run the aromatherapy marketing department for a business in the beauty industry. Later in my career, I worked alongside software engineers creating strategies for digital loyalty programs and promotions.</p>
-                        <p>These last few years I have learned the art of Web Development (although this is a lifelong learning career) and used my skills to work with local digital agencies and other bodies developing websites, microsites, and all things web.</p>
+                        <p>I am a marketing professional who has experience developing digital marketing strategies and project management. I hold a Bachelor's Degree in Business Administration, a Masters in Leadership, and more recently a Diploma in Web Development.</p>
+                        <p>My new skills help me to complete my previous expertise with design and IT knowledge. Currently I am working as <strong>web developer and designer</strong> freelance developing brochure websites, micro website, flyers, social media posts, video editing and designing digital promotion tools for specific events.</p>
                     </div>
                 </div>
             </section>
@@ -75,7 +72,7 @@ export const KrlaDev = () => {
 
                 <div className="row mt-4">
                     <div className="col-sm-12 kd-card-alt">
-                        <p><img className="kd-icon kd-fade-in-effect" src="assets/icon-maths.png" alt="Kumon Addition Challenger" /></p>
+                        <p><div class="kd-icon-container1"><img className="kd-icon kd-fade-in-effect kd-icon-container" src="assets/icon-kmon-ui.png" alt="Kumon Addition Challenger" /></div></p>
                         <h3>Kumon Addition Challenger</h3>
                         <p className="kd-fineprint">ReactJS | Laravel API Backend</p>
                         <p className="kd-description">My daughter started the maths' Kumon program recently and she had to do additions based on a number. I decided to translate the paper based experience to this app.</p>
@@ -86,7 +83,7 @@ export const KrlaDev = () => {
                     </div>
 
                     <div className="col-sm-12 kd-card-alt">
-                        <p><img className="kd-icon kd-fade-in-effect" src="assets/icon-dev-journey.png" alt="Dev Journey" /></p>
+                        <p><div class="kd-icon-container1"><img className="kd-icon kd-fade-in-effect kd-icon-container" src="assets/icon-dev-journey.png" alt="Kumon Addition Challenger" /></div></p>
                         <h3>Dev Journey</h3>
                         <p className="kd-fineprint">ReactJS</p>
                         <p className="kd-description">First personal project to showcase my ReactJS abilities.</p>

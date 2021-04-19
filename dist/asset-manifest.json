@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.688cfde9.chunk.css",
-    "main.js": "/static/js/main.6d32faa3.chunk.js",
-    "main.js.map": "/static/js/main.6d32faa3.chunk.js.map",
+    "main.css": "/static/css/main.fe20393a.chunk.css",
+    "main.js": "/static/js/main.adf77294.chunk.js",
+    "main.js.map": "/static/js/main.adf77294.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1dda52c2.js",
     "runtime-main.js.map": "/static/js/runtime-main.1dda52c2.js.map",
     "static/js/2.d49b6a24.chunk.js": "/static/js/2.d49b6a24.chunk.js",
     "static/js/2.d49b6a24.chunk.js.map": "/static/js/2.d49b6a24.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.688cfde9.chunk.css.map": "/static/css/main.688cfde9.chunk.css.map",
+    "static/css/main.fe20393a.chunk.css.map": "/static/css/main.fe20393a.chunk.css.map",
     "static/js/2.d49b6a24.chunk.js.LICENSE.txt": "/static/js/2.d49b6a24.chunk.js.LICENSE.txt",
     "static/media/all.css": "/static/media/kd-banner.daebdc8e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1dda52c2.js",
     "static/js/2.d49b6a24.chunk.js",
-    "static/css/main.688cfde9.chunk.css",
-    "static/js/main.6d32faa3.chunk.js"
+    "static/css/main.fe20393a.chunk.css",
+    "static/js/main.adf77294.chunk.js"
   ]
 }
